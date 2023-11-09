@@ -3,13 +3,13 @@ import './about.css';
 import ME from '../../assets/Photo Profile.jpeg';
 import { FaAward } from "react-icons/fa";
 import { GiTechnoHeart } from "react-icons/gi";
-import { PiFolderSimpleLockThin } from "react-icons/pi";
+import { MdOutlineFolderCopy } from "react-icons/md";
 
 const About = () => {
   return (
     <section id="about">
       <h5>Get to know</h5>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -25,27 +25,30 @@ const About = () => {
               <h5>Experience</h5>
               <small>2+ Years</small>
             </article>
-          </div>
-        </div>
 
-        <div className="about__content">
-          <div className="about__cards">
             <article className="about__card">
               <GiTechnoHeart className="about__icon" />
               <h5>Knowledge</h5>
-              <small>15 Technologies</small>
+              <small>10 Technologies</small>
             </article>
-          </div>
-        </div>
 
-        <div className="about__content">
-          <div className="about__cards">
             <article className="about__card">
-              <PiFolderSimpleLockThin className="about__icon" />
+              <MdOutlineFolderCopy className="about__icon" />
               <h5>Projects</h5>
               <small>20 Completed</small>
             </article>
           </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            quasi quaerat vel rem repudiandae suscipit, praesentium molestiae
+            recusandae doloremque qui voluptas corrupti, placeat corporis
+            aliquid, tempora in explicabo iste ab.
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
