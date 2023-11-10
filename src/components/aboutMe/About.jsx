@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/';
+import ME from '../../assets/Avatar-first.jpeg';
 import { FaAward } from "react-icons/fa";
 import { GiTechnoHeart } from "react-icons/gi";
 import { MdOutlineFolderCopy } from "react-icons/md";
@@ -40,10 +40,16 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            quasi quaerat vel rem repudiandae suscipit, praesentium molestiae
-            recusandae doloremque qui voluptas corrupti, placeat corporis
-            aliquid, tempora in explicabo iste ab.
+            Sono Gabriele Cuscinà ho 21 anni, sono nato a Messina e mi sono
+            diplomato al Nautico di Messina "Caio Duilio". Dopo il primo imbarco
+            ho compreso che quella non fosse la strada giusta per me. Ho
+            abbandonato l' avvio della mia carriera nell'ambito marittimo per
+            iniziare il mio percorso come Programmatore Front-ender. Mi integro
+            con disinvoltura e naturalità con i gruppi di lavoro ed ho ottime
+            abilità interpersonali. Eseguo le mie mansioni e compiti con
+            disciplina. Spero di poter discutere personalmente di questa
+            opportunità e mi rendo sin da ora disponibile per un eventuale
+            colloquio conoscitivo e tecnico.
           </p>
 
           <a href="#contact" className="btn btn-primary">
