@@ -1,6 +1,13 @@
 import React from 'react';
 import './portfolio.css';
-//import IMG1 from '../../assets/'
+import IMG1 from '../../assets/BenchmarkEpicode-mock.png';
+import IMG2 from '../../assets/CRUD-Agenda-mock.png';
+import IMG3 from '../../assets/Epibooks-app.png';
+import IMG4 from '../../assets/Redshift-gaming-mock.png';
+import IMG5 from '../../assets/RemoteJobsSearch-app.png';
+import IMG6 from '../../assets/Weather-app mockup.png';
+import IMG7 from '../../assets/';
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
