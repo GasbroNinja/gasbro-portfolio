@@ -22,8 +22,8 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
       <Swiper
         // install Swiper modules
-        
-        Autoplay={5}
+
+        autoPlay={2000}
         modules={[Pagination, Navigation]}
         spaceBetween={50}
         slidesPerView={1}
@@ -41,8 +41,11 @@ const Testimonials = () => {
               <h5 className="client__name">Michelangelo Arcangelo Tedesco</h5>
               <h5 className="client__name-2">Fullstack Dev & Influencer</h5>
               <small className="client__review">
-                "Nice teamworker, strong mentality, and good attitude, great
-                player, Graphic enthusiastic"
+                "Nice teamworker,
+                <br /> Strong mentality,
+                <br /> Good attitude,
+                Great player,
+                Graphic enthusiastic"
               </small>
             </article>
           </SwiperSlide>
@@ -54,8 +57,8 @@ const Testimonials = () => {
               <h5 className="client__name">Stefano Miceli</h5>
               <h5 className="client__name-2">Front-end Dev</h5>
               <small className="client__review">
-                "Dedicated person, even though sometimes had some strange ideas,
-                he is a good developer, and he has a great future in front of
+                "Dedicated person, even though sometimes had some strange ideas, <br />
+                he is a good developer, <br /> and he has a great future in front of
                 him"
               </small>
             </article>

@@ -7,13 +7,13 @@ import IMGLOGO from '../../assets/icon/Logo Gasbro tagliato.png';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#home" className="footer__logo">
         <h2>GASBRO</h2>
         <img src={IMGLOGO} alt="LogoGasbro" width={300} height={300} />
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
