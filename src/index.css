@@ -35,7 +35,7 @@
 
 }
 
-[data-theme='dark'] {
+[data-theme='light'] {
     --background: #e5abff;
     --color-bg: rgb(195, 195, 255);
     --color-bg-variant: #4a4aff;
@@ -49,6 +49,13 @@
     --color-light: rgba(0, 0, 0, 0.6);
     --color-black: rgb(255, 255, 255);
     --color-dark: rgb(255, 255, 255);
+    --transition: all 400ms ease;
+    
+    
+    
+        --container-width-lg: 75%;
+        --container-width-md: 86%;
+        --container-width-sm: 90%;
 }
 
 html{
@@ -61,13 +68,16 @@ html{
 
 body{
     font-family: 'Comfortaa', sans-serif;
-    background-color: var(--color-secondary);
+    
     color: var(--color-white);
     line-height: 1.7;
-    transition: var(--transition);
 }
 
 /* ------------ GENERAL STYLES ----------------- */
+
+.body__bg-color{
+    background-color: var(--background);
+}
 
 .container {
     width: var(--container-width-lg);

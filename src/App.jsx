@@ -12,15 +12,15 @@ import Footer from './components/footer/Footer';
 
 const App = () => {
 
-    const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
+    const [theme, setTheme] = useLocalStorage("theme" ? "light" : "dark");
 
     const switchTheme = () => {
-      const newTheme = theme === "light" ? "dark" : "light";
+      const newTheme = theme === "dark" ? "light" : "dark";
       setTheme(newTheme);
     };
 
   return (
-    <div data-theme={theme}>
+    <div className='body__bg-color' data-theme={theme}>
       <div class="checkboxes__item">
         <label class="checkbox style-h">
           <input type="checkbox" onClick={switchTheme} />
